@@ -1,0 +1,16 @@
+
+spring:
+  kafka:
+    bootstrap-servers:
+      - 127.0.0.1:29092
+    consumer:
+      group-id: hwany-group
+      auto-offset-reset: latest
+      # Value가 JSON 형태이면 JsonDeserializer
+      # JSON으로 넘겨주고 역직렬화 해줘도 될듯
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      enable-auto-commit: true
+      max-poll-records: 1000
+server:
+  port: 9001
