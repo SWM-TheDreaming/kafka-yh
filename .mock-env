@@ -1,0 +1,16 @@
+PORT = // server-port
+SECRET = // server-secret
+
+// db info
+HOST = 
+DBUSER = 
+PASSWORD = 
+DATABASE = 
+
+// redis program file when using local env
+REDIS_PROGRAM_ABS_LOCATION = 
+
+// kafka info
+KAFKA_CLIENT_ID = 
+KAFKA_BROKER_ORIGIN = 
+KAFKA_CONSUMER_GROUP_ID = 

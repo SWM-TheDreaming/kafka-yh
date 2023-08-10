@@ -25,6 +25,7 @@
     "firebase-admin": "^11.0.1",
     "http-errors": "~1.6.3",
     "jsonwebtoken": "^8.5.1",
+    "kafkajs": "^2.2.4",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.37",
     "morgan": "~1.9.1",
